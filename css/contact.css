@@ -1,0 +1,132 @@
+.img123 {
+    width: 65px;
+  
+  }
+  
+  .a {
+    height: 600px;
+  }
+  
+  .navbar {
+    background: whitesmoke!important;
+    height: 80px;
+  }
+  
+  .navbar-nav li {
+    padding: 0 10px;
+  }
+  
+  .navbar-nav li a {
+    color: black !important;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .weblogo {
+    width: 125px;
+    margin-left: 100px;
+    height: 80PX;
+  }
+  
+  .moblogo {
+    display: none;
+    height: 90PX;
+    width: 125px;
+    margin-top: -30px;
+  }
+  
+  @media(max-width:768px) {
+    .weblogo {
+      display: none;
+    }
+  
+    .moblogo {
+      display: block;
+  
+    }
+  
+    .navbar {
+      background: rgb(255, 174, 0) !important;
+    }
+  
+    .imgmob {
+      margin-top: 7px;
+    }
+  }
+  
+  .logout {
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 7px;
+    height: 37px;
+    width: 70px;
+    margin-top: 4px;
+    margin-left: 20px;
+  }
+  
+ 
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .solid{
+    margin-top: 70px;
+    width: 50%;
+    margin-left: 300px;
+  }
+  /*footarsectionstart*/
+  footer {
+    width: 100%;
+    background:white;
+    color: black;
+    padding: 52px, 20px;
+    height: 350px;
+    margin-top: 40px;
+  
+  }
+  
+  .footarsection {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .footarsection h4 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-style: italic;
+  }
+  
+  .footarsection .usefullink {
+    text-align: center;
+  }
+  
+  .footarsection .usefullink ul li {
+    margin: 10px, 0;
+  }
+  
+  .footarsection .usefullink ul li a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .footarsection .usefullink ul li a:hover {
+    text-decoration: none;
+  }
+  
+  .footarsection .contactus ul li {
+    margin: 10px;
+    font-size: 28px;
+  }
+  .link{
+    color: black;
+    text-decoration: none;
+  
+  }

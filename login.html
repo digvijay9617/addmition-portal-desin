@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background: url(image/photo-1662212464038-0c067cd77516.avif);
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            float: left;
+        }
+
+        .login {
+            border: px solid white;
+            width: 400px;
+            height: 400px;
+            margin-top: 70px;
+            background: linear-gradient(to right, rgb(211, 211, 161), transparent);
+            margin-left: 450px;
+            text-align: center;
+            text-overflow: ellipsis;
+
+        }
+
+        .login h3 {
+
+            background: rgba(0, 0, 0, 0.459);
+            color: white;
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .login input {
+            width: 150px;
+            height: 25px;
+            border: n;
+            border-radius: 16px;
+            background: rgba(0, 0, 0, 0.589);
+            color: white;
+            font-size: 15px;
+            padding-left: 10px;
+            box-shadow: 3px 3px 3px red;
+
+        }
+
+        .login button {
+            padding: 6px 37px;
+            border-radius: 10px;
+            background: linear-gradient(45deg, blue, transparent);
+            color: white;
+            font-size: 12px;
+            margin-left: 20px;
+        }
+
+       .remember{
+        color:red;
+       }
+
+        .a {
+            font-style: italic;
+            font-size: 43px bold;
+            
+        }
+
+        ::placeholder {
+            color: white;
+            text-align: justify;
+        }
+
+        @media screen and (max-width: 300px) {
+
+            .body,
+            .login,
+            .remember {
+                display: block;
+                float: none:
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <form class="login">
+        <h3>pninfosys class</h3>
+        <br>
+        <label for="usrname">usrname</label>
+
+        <input type="text" name="n" placeholder="">
+        <br><br>
+        <label for="email" class="a">Email</label>
+
+        <input type="email" name="e">
+        <br><br>
+        password:
+
+        <input type="password" name="p">
+        <br><br>
+        number:
+
+        <input type="number" name="nu">
+        <br><br>
+        <button class="button">login</button>
+        <br><br>
+        <label>
+            <input type="checkbox" checked="checked" name="remember" class="remember" style="color: chartreuse;" > Remember me
+        </label>
+    
+    
+    </form>
+   
+</body>
+
+</html>
