@@ -64,6 +64,9 @@
   height: 80px;
 
 }
+h1{
+  font-size: 93px;
+}
 h2{
   letter-spacing: .20em;
   line-height: 1.5em;
@@ -83,6 +86,45 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1rem;
+}
+ .button a {
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1.19rem 1.37rem;
+  min-width: 270px;
+  letter-spacing: .1em;
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  -moz-transition: background .2s ease, border .2s ease;
+  -o-transition: background .2s ease, border .2s ease;
+  -webkit-transition: background .2s ease, border .2s ease;
+  transition: background .2s ease, border .2s ease;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+.a {
+  color: #007cdc;
+  text-decoration: none;
+}
+*, button, input, textarea {
+  font-family: "Nunito Sans", sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  zoom: 1;
+}
+* {
+  outline: 0;
+}
+user agent stylesheet
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
 }
 .logout {
   color: white;
