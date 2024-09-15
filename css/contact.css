@@ -1,132 +1,218 @@
 .img123 {
-    width: 65px;
-  
-  }
-  
-  .a {
-    height: 600px;
-  }
-  
-  .navbar {
-    background: whitesmoke!important;
-    height: 80px;
-  }
-  
-  .navbar-nav li {
-    padding: 0 10px;
-  }
-  
-  .navbar-nav li a {
-    color: black !important;
-    font-weight: 600;
-    font-size: 20px;
-  }
-  
+  width: 65px;
+
+}
+
+.a {
+  height: 600px;
+}
+
+.navbar {
+  background: rgba(221, 217, 217, 0.089)!important;
+  height: 80px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: black !important;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.weblogo {
+  width: 125px;
+  margin-left: 100px;
+  height: 80PX;
+}
+
+.moblogo {
+  display: none;
+  height: 90PX;
+  width: 125px;
+  margin-top: -30px;
+}
+
+@media(max-width:768px) {
   .weblogo {
-    width: 125px;
-    margin-left: 100px;
-    height: 80PX;
-  }
-  
-  .moblogo {
     display: none;
-    height: 90PX;
-    width: 125px;
-    margin-top: -30px;
   }
-  
-  @media(max-width:768px) {
-    .weblogo {
-      display: none;
-    }
-  
-    .moblogo {
-      display: block;
-  
-    }
-  
-    .navbar {
-      background: rgb(255, 174, 0) !important;
-    }
-  
-    .imgmob {
-      margin-top: 7px;
-    }
+
+  .moblogo {
+    display: block;
+
   }
-  
-  .logout {
-    color: white;
-    background-color: blue;
-    border: none;
-    border-radius: 7px;
-    height: 37px;
-    width: 70px;
-    margin-top: 4px;
-    margin-left: 20px;
+
+  .navbar {
+    background: rgb(255, 174, 0) !important;
   }
-  
- 
-  
-  /* Responsive columns - one column layout (vertical) on small screens */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
+
+  .imgmob {
+    margin-top: 7px;
   }
-  .solid{
-    margin-top: 70px;
-    width: 50%;
-    margin-left: 300px;
-  }
-  /*footarsectionstart*/
-  footer {
+}
+.b{
+  width: 100%;
+  height: 600px;
+  background-color: rgb(255 255 255);
+  text-align: center;
+}
+.icon{
+  width: 90px;
+  height: 80px;
+
+}
+h2{
+  letter-spacing: .20em;
+  line-height: 1.5em;
+}
+p {
+  color: #606060;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: .025em;
+  line-height: 1.5em;
+}
+.section p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5em;
+  max-width: 275px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+.logout {
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 7px;
+  height: 37px;
+  width: 70px;
+  margin-top: 4px;
+  margin-left: 20px;
+}
+
+/* Style the dropdown content - positioned absolute */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: white;
+  width: 120px;
+  height: 150px;
+  z-index: 1;
+  text-decoration: solid;
+  font-weight: lighter;
+  line-height: 10px;
+  font-style: italic;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.welcome{
+  margin-top: 200px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
     width: 100%;
-    background:white;
-    color: black;
-    padding: 52px, 20px;
-    height: 350px;
-    margin-top: 40px;
-  
+    display: block;
+    margin-bottom: 20px;
   }
-  
-  .footarsection {
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-  }
-  
-  .footarsection h4 {
-    font-size: 24px;
-    margin-bottom: 16px;
-    font-style: italic;
-  }
-  
-  .footarsection .usefullink {
-    text-align: center;
-  }
-  
-  .footarsection .usefullink ul li {
-    margin: 10px, 0;
-  }
-  
-  .footarsection .usefullink ul li a {
-    color: black;
-    font-size: 18px;
-    text-decoration: none;
-  }
-  
-  .footarsection .usefullink ul li a:hover {
-    text-decoration: none;
-  }
-  
-  .footarsection .contactus ul li {
-    margin: 10px;
-    font-size: 28px;
-  }
-  .link{
-    color: black;
-    text-decoration: none;
-  
-  }
+}
+.solid{
+  margin-top: 70px;
+  width: 50%;
+  margin-left: 300px;
+}
+/*footarsectionstart*/
+footer {
+  width: 100%;
+  background:white;
+  color: black;
+  padding: 52px, 20px;
+  height: 350px;
+  margin-top: 40px;
+
+}
+
+.footarsection {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.footarsection h4 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-style: italic;
+}
+
+.footarsection .usefullink {
+  text-align: center;
+}
+
+.footarsection .usefullink ul li {
+  margin: 10px, 0;
+}
+
+.footarsection .usefullink ul li a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footarsection .usefullink ul li a:hover {
+  text-decoration: none;
+}
+
+.footarsection .contactus ul li {
+  margin: 10px;
+  font-size: 28px;
+}
+.link{
+  color: black;
+  text-decoration: none;
+
+}
